@@ -4,6 +4,9 @@
 
 ![screenshot](./screen.png)
 
+## Live Demo
+[Live Demo link](https://abdelrhmanamin.github.io/Resturant-js/#)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.

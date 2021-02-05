@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A resturant project",
   "main": "index.js",
-  "scripts": {
-    "dev": "webpack --mode development"
+ "scripts": { 
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "Abdelrhman Amin",
   "license": "ISC",

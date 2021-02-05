@@ -4,6 +4,10 @@
 
 ![screenshot](./screen.png)
 
+## Live Demo
+Sorry but for some reason the styling won't work!
+[Live Demo link](https://abdelrhmanamin.github.io/Resturant-js/#)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.

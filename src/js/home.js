@@ -1,4 +1,5 @@
 import mainImg from '../images/main.jpg';
+
 const Home = () => {
   const content = document.querySelector('#content');
   const img = new Image();

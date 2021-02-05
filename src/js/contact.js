@@ -1,4 +1,5 @@
 import Img from '../images/thanks.gif';
+
 const Contact = () => {
   const content = document.querySelector('#content');
   const img = new Image();

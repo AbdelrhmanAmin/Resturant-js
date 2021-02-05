@@ -1,6 +1,7 @@
-import Couscous from './../images/couscous.jpg'
-import Soup from './../images/soup.jpg'
-import Flafael from './../images/flafael.jpg'
+import Couscous from '../images/couscous.jpg';
+import Soup from '../images/soup.jpg';
+import Flafael from '../images/flafael.jpg';
+
 const Menu = () => {
   const content = document.querySelector('#content');
   const img = document.createElement('img');

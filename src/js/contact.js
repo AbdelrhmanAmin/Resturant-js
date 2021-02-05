@@ -1,8 +1,9 @@
+import Img from '../images/thanks.gif';
 const Contact = () => {
   const content = document.querySelector('#content');
-  const img = document.createElement('img');
+  const img = new Image();
   img.className = 'head-img';
-  img.src = 'https://aivalabs.com/aiva-create/assets/images/uploads/ImdPQlyY90KEkC1.gif';
+  img.src = Img;
   const headline = document.createElement('h1');
   headline.innerHTML = 'How To Contact Neko Master';
   const div = document.createElement('div');

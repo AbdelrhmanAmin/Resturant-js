@@ -1,3 +1,6 @@
+import Couscous from './../images/couscous.jpg'
+import Soup from './../images/soup.jpg'
+import Flafael from './../images/flafael.jpg'
 const Menu = () => {
   const content = document.querySelector('#content');
   const img = document.createElement('img');
@@ -10,15 +13,15 @@ const Menu = () => {
   const menu = [
     [
       'Couscous',
-      'https://theforkedspoon.com/wp-content/uploads/2020/01/How-to-Cook-Couscous-9.jpg',
+      Couscous,
     ],
     [
       'Lentil Soup',
-      'https://frommybowl.com/wp-content/uploads/2020/04/Feel_Good_Red_Lentil_Soup_Vegan_GlutenFree_FromMyBowl-8-scaled.jpg',
+      Soup,
     ],
     [
       'Cauliflower Flafael',
-      'https://whatgreatgrandmaate.com/wp-content/uploads/2020/02/paleo-falafel-sq-scaled.jpg',
+      Flafael,
     ],
   ];
   menu.forEach((meal) => {
@@ -26,7 +29,7 @@ const Menu = () => {
     const liHead = document.createElement('h3');
     const liImg = document.createElement('img');
     liImg.className = 'img-styling';
-    [liImg.src, liHead.innerHTML] = [meal[0], meal[1]];
+    [liHead.innerHTML, liImg.src] = [meal[0], meal[1]];
     li.appendChild(liHead);
     li.appendChild(liImg);
     ul.appendChild(li);

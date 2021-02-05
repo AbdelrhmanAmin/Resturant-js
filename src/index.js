@@ -3,6 +3,7 @@ import Menu from './js/menu';
 import Navbar from './js/navbar';
 import Contact from './js/contact';
 import { setTab, getTab } from './js/tools';
+
 const mountTab = () => {
   document.getElementById('content').innerHTML = '';
   Navbar();
@@ -19,13 +20,13 @@ const mountTab = () => {
     mountTab();
   });
 
-  if (getTab() == 1) {
+  if (getTab() === 1) {
     Home();
   }
-  if (getTab() == 2) {
+  if (getTab() === 2) {
     Menu();
   }
-  if (getTab() == 3) {
+  if (getTab() === 3) {
     Contact();
   }
 };

@@ -2,8 +2,7 @@ const Contact = () => {
   const content = document.querySelector('#content');
   const img = document.createElement('img');
   img.className = 'head-img';
-  img.src =
-    'https://aivalabs.com/aiva-create/assets/images/uploads/ImdPQlyY90KEkC1.gif';
+  img.src = 'https://aivalabs.com/aiva-create/assets/images/uploads/ImdPQlyY90KEkC1.gif';
   const headline = document.createElement('h1');
   headline.innerHTML = 'How To Contact Neko Master';
   const div = document.createElement('div');

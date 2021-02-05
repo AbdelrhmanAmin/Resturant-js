@@ -1,9 +1,16 @@
 #content {
-  width: 550px;
+  width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
-#content p {
-  width: 400px;
-  margin: 0 auto;
+.head-img {
+  width: 1000px;
+  height: 500px;
+}
+ul {
+  list-style-type: none;
+}
+.img-styling {
+  width: 250px;
+  height: 250px;
 }
